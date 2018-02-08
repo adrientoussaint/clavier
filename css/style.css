@@ -1,0 +1,35 @@
+html{
+    overflow: hidden;
+}
+.col-md-4{
+    padding:15px;
+    display:flex;
+    align-items: center;
+    text-align: center;
+}
+
+.dropdown-menu a:hover{
+    background-color: #007bff;
+    cursor: pointer;
+}
+.dropdown-menu{
+    transform: translateX(-50%);
+}
+nav{
+    opacity:0.3;
+    padding:2% !important;
+}
+
+nav:hover{
+    opacity:1;
+}
+
+#conf{
+    max-width: 800px;
+}
+#rowConf{
+    margin-left: 2%;
+}
+.selconf{
+    padding:5px;
+}
